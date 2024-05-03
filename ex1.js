@@ -4,10 +4,10 @@
 //foi bem-sucedido ou não.
 
 let username = prompt("Digite um nome de usuario: ")
-let senha = prompt("Digite a senha: ")
+let password = prompt("Digite a senha: ")
 
-if (username == "admin") {
-
+if (username == "admin" && password == "senha123") {
+    console.log("Login bem sucedido");
+} else {
+    console.log("Você não tem permissão de acesso!")
 }
-
-console.log(1 == "1")
