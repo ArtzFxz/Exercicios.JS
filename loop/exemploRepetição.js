@@ -64,11 +64,11 @@
 
 let num = [1,2,3,4,5,6,7];
 
-// num.forEach(elemento => {
-//     console.log("Os números são: " + elemento)
+num.forEach(elemento => {
+    console.log("Os números são: " + elemento)
 
-// });
+});
 
-for(let elemento of num){
-    console.log(elemento)
-}
+// for(let elemento of num){
+//     console.log(elemento)
+// }
