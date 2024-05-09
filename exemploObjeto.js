@@ -46,4 +46,4 @@ produtoCadastrado.nome = prompt("Digite o nome do produto: ")
 produtoCadastrado.valor = parseFloat(prompt("Digite o valor do produto: "))
 produtoCadastrado.marca = prompt("Digite a marca do produto: ")
 
-console.log(produtoCadastrado)
+console.log(produtoCadastrado);
