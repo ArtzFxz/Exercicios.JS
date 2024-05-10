@@ -94,33 +94,36 @@ function exemploRepeticao() {
     console.log("Saiuuuuu");
 }
 
-let opcao = prompt("Escolha uma opção: \n1 - Exemplo Idade\n2 - Exemplo Repetição\n3 - Exemplo Sequência Fibonacci\n4 - Exemplo Tabuada\n5 - Exemplo Imprimir pares\n6 - Exemplo Imprimir Impares")
+let opcao;
 
-switch (opcao) {
-    case "1":
-        idade()
-        break;
-
-    case "2":
-        exemploRepeticao()
-        break;
-
-    case "3":
-        sequenciaFibonacci()
-        break;
-
-    case "4":
-        tabuada()
-        break;
-
-    case "5":
-        imprimirPares()
-        break;
-
-    case "6":
-        imprimirImpar()
-        break;
+while(opcao != 0) {
+    opcao = parseInt(prompt("Escolha uma opção: \n1 - Exemplo Idade\n2 - Exemplo Repetição\n3 - Exemplo Sequência Fibonacci\n4 - Exemplo Tabuada\n5 - Exemplo Imprimir pares\n6 - Exemplo Imprimir Impares"))
+    switch (opcao) {
+        case 1:
+            idade()
+            break;
     
-    default:
-    break;
+        case 2:
+            exemploRepeticao()
+            break;
+    
+        case 3:
+            sequenciaFibonacci()
+            break;
+    
+        case 4:
+            tabuada()
+            break;
+    
+        case 5:
+            imprimirPares()
+            break;
+    
+        case 6:
+            imprimirImpar()
+            break;
+        
+        default:
+        break;
+    }
 }
